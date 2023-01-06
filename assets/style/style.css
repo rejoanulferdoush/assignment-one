@@ -139,6 +139,8 @@ p {
   background: linear-gradient(90deg, #ec8860 0%, rgba(241, 91, 34, 0) 100%),
     url("./../images/watch.png");
   padding: 60px 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
