@@ -32,17 +32,29 @@ p {
   font-size: 24px;
   font-weight: 600;
   padding: 20px 30px;
-  border: 0;
+  border: 2px solid transparent;
+  cursor: pointer;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
 }
 
 .btn-primary.alt {
   background: #f8f8f8;
   color: #ec8860;
+}
+
+.btn-primary:hover {
+  background: rgba(0, 0, 0, 0.2);
+  border-color: #fff;
+  color: #fff;
 }
 
 .same-line {
